@@ -192,6 +192,8 @@ def process_resumes(requirements, resume_dir):
     return extracted_data_list
 
 def save_resumes_to_excel(extracted_data_list, output_file="resume_analysis.xlsx"):
+
+    """Saves the resume to excel format and gnerate a dataframe as an output for GUI"""
     
     # Convert the list of dictionaries to a pandas DataFrame
     df = pd.DataFrame(extracted_data_list)

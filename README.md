@@ -75,4 +75,7 @@ python app.py
 - 🔐 Dotenv, Accelerate for HuggingFace setup
 
 ---
+<p align="center">
+  <img src="./SkillSortAI.gif" alt="Animated Coding GIF" width="1000"/>
+</p>
 

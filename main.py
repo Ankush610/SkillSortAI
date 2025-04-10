@@ -16,6 +16,9 @@ import time
 global_df = pd.DataFrame()
 
 def extract_and_rank(requirements, resume_dir, top_n):
+
+    """Helper Function to take User Input from Gradio Interface and return Output"""
+    
     global global_df
     output = process_resumes(requirements, resume_dir)
     df = save_resumes_to_excel(output)
@@ -30,6 +33,9 @@ def extract_and_rank(requirements, resume_dir, top_n):
     return df_sorted, *generate_all_plots(df_sorted)
 
 def generate_all_plots(df):
+
+    """Helper Function to Generate Plots for the Gradio Interface"""
+    
     def plot_scores(score_column, title):
         # Dynamic height: 0.5 inch per row, minimum 4 inches
         height = max(4, 0.5 * len(df))
@@ -57,6 +63,9 @@ def update_plots_on_selection(selected_rows):
     return generate_all_plots(selected_df)
 
 class Seafoam(Base):
+
+    """Theme Class for Visual Changes to Gradio Interface"""
+    
     def __init__(
         self,
         *,
@@ -93,6 +102,7 @@ class Seafoam(Base):
         )
 
 with gr.Blocks(theme=Seafoam()) as demo:
+    
     gr.Markdown("<center><h1>🤖--|| SkillSort AI ||--🤖<h1><center>")  
 
     with gr.Row():

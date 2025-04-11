@@ -103,7 +103,7 @@ class Seafoam(Base):
 
 with gr.Blocks(theme=Seafoam()) as demo:
     
-    gr.Markdown("<center><h1>🤖--|| SkillSort AI ||--🤖<h1><center>")  
+    gr.Markdown("<center><h1>🤖 HIRA : Discover the Diamonds in Your Talent Pool<h1><center>")  
 
     with gr.Row():
         textbox = gr.Textbox(placeholder="Write job requirements", label="Job Requirements", lines=3)

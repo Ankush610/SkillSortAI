@@ -1,6 +1,6 @@
 # 🤖 Hira.AI — Intelligent Resume Analyzer & Ranker
 
-Hira, meaning "Diamond" in Marathi, symbolizes the true gems within today’s talent pool. It’s an AI-powered intelligent resume ranking system driven by the LLaMA 3.1 Storm 8B model. Hira extracts, analyzes, and ranks resumes by comparing each candidate’s skills and experience against your custom job requirements—delivering visual insights, sorted rankings, and ATS-style evaluations in one seamless, modern application.
+Hira, meaning "Diamond" in Marathi, symbolizes the true gems within today’s talent pool. Hira is an AI-powered intelligent resume ranking system driven by the LLaMA 3.1 Storm 8B model. It extracts, analyzes, and ranks resumes by comparing each candidate’s skills and experience against your custom job requirements—delivering visual insights, sorted rankings, and ATS-style evaluations in one seamless, modern application.
 
 ## 🚀 Features
 

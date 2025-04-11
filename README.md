@@ -1,6 +1,6 @@
-# 🤖 SkillSort AI — Intelligent Resume Analyzer & Ranker
+# 🤖 Hira.AI — Intelligent Resume Analyzer & Ranker
 
-SkillSort AI is a Gradio-based intelligent resume ranking system powered by the **LLaMA 3.1 Storm 8B** model. It extracts, analyzes, and ranks resumes using AI, comparing each candidate’s skills and experience against custom job requirements. Get visual insights, sorted results, and ATS-style evaluations—all in one sleek app.
+Hira, meaning "Diamond" in Marathi, symbolizes the true gems within today’s talent pool. It’s an AI-powered intelligent resume ranking system driven by the LLaMA 3.1 Storm 8B model. Hira extracts, analyzes, and ranks resumes by comparing each candidate’s skills and experience against your custom job requirements—delivering visual insights, sorted rankings, and ATS-style evaluations in one seamless, modern application.
 
 ## 🚀 Features
 

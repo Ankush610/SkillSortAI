@@ -76,6 +76,6 @@ python app.py
 
 ---
 <p align="center">
-  <img src="./resumeAI.gif" alt="Animated Coding GIF" width="1000"/>
+  <img src="./HiraAI.gif" alt="Animated Coding GIF" width="1000"/>
 </p>
 
